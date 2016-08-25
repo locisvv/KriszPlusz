@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:authorities="com.somniatores.kriszplusz.managers"
+            android:name=".managers.SongsContentProvider"/>
     </application>
 
 </manifest>
